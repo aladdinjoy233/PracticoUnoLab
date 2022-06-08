@@ -13,7 +13,7 @@ public class Hombre {
 //    System.out.println("Energia actual del robot: " + robot.energiaActual());
 
     robot.despertar();
-    var leer = new Scanner(System.in);
+    Scanner leer = new Scanner(System.in);
     int op;
       
     do {
