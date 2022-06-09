@@ -5,7 +5,7 @@ import java.util.*;
 public class Hombre {
   
   public void jugarConRobot(Robot robot) {
-    
+//otro comentariooo
 //    robot.avanzar(500);
 //    
 //    robot.retroceder(20);
