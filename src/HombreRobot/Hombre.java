@@ -6,6 +6,7 @@ public class Hombre {
   
   public void jugarConRobot(Robot robot) {
 //otro comentariooo
+//holi
 //    robot.avanzar(500);
 //    
 //    robot.retroceder(20);
