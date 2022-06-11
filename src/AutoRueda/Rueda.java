@@ -1,9 +1,3 @@
-//Hacer una clase Rueda, con atributo marca y presion,
-//luego el auto debe tener 4 ruedas, y desde el main el
-//auto debe inflar sus ruedas, la presion a 28.0/ se debe
-//desinflar (reduce -0.5) (Auto desinfla rueda, pincha
-//rueda)
-
 package AutoRueda;
 
 public class Rueda {
@@ -40,13 +34,16 @@ public class Rueda {
   }
 
   void desinflarRueda(double cant) {
-    presion -= cant;
+
+    if (presion >= cant) {
+      presion -= cant;
+    }
+
   }
 
   @Override
   public String toString() {
     return "{" + presion + '}';
   }
-  
   
 }

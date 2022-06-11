@@ -60,6 +60,19 @@ public class Auto {
   
   public void avanzar(int distancia) {
     double combustibleNecesario = distancia / 10;
+
+    boolean ruedaPinchada = false;
+
+    for (Rueda rueda : ruedas) {
+      if (rueda.getPresion() <= 0) {
+        ruedaPinchada = true;
+      }
+    }
+
+    if (ruedaPinchada) {
+      System.out.println("No se puede avanzar, rueda pinchada..");
+      return;
+    }
     
     if (combustible >= combustibleNecesario) {
       combustible -= combustibleNecesario;
