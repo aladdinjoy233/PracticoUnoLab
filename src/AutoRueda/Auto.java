@@ -93,7 +93,13 @@ public class Auto {
     }
   }
   
-  public void pincharRueda() {
+  public void pincharRuedas() {
+    for (Rueda rueda : ruedas) {
+      rueda.pincharRueda();
+    }
+  }
+
+  public void desinflarRuedas() {
     for (Rueda rueda : ruedas) {
       rueda.desinflarRueda(0.5);
     }

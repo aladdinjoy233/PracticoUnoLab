@@ -41,6 +41,10 @@ public class Rueda {
 
   }
 
+  void pincharRueda() {
+    presion = 0;
+  }
+
   @Override
   public String toString() {
     return "{" + presion + '}';

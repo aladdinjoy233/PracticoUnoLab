@@ -18,13 +18,15 @@ public class TestAuto {
     
     System.out.println(a.getRuedas());
     
-    a.pincharRueda();
+    a.pincharRuedas();
     
     System.out.println(a.getRuedas());
     
-    
     a.inflarRuedas();
     
+    System.out.println(a.getRuedas());
+
+    a.desinflarRuedas();
     System.out.println(a.getRuedas());
 
     
